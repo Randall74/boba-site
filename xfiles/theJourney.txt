@@ -1,0 +1,17 @@
+// This is just a place for me to jot down some of my ideas and to list the obstacles I have encountered during my journey of learning the "full-stack" development process.
+
+// In my attempts to learn as much of the full stack as possible -- and because I'm on a Windows (7) environment -- I have learned to use tools that I have never had to use in the past, like PowerShell.
+
+// I have also tried using Ubuntu (Satanic Edition) using a virtual machine (Oracle's VM VirtualBox) and the Raspberry Pi, but both had their limitations. *My next plan of attack is to set up a dual partition on my current laptop and use either the latest Ubuntu Server edition or another flavor of Linux (Mint? Debian? Open Suse? Arch?)
+
+// Shout out to quora.com, stackoverflow.com and YouTube developer channels for all the great information!
+
+
+List:
+    - PowerShell (upgraded from 2.0 to 3.0)
+    - bash commands (I have used these throughout my career, but have learned much more recently)
+    - git
+    - Cloud 9 IDE
+    - Atom (IDE)
+    - NetBeans IDE
+    - 
