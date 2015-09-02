@@ -1,0 +1,107 @@
+body {
+    background-color: #EEE8CD;
+}
+
+.header-section {
+    background-color: #0099FF;
+    padding: 10px 50px 0 50px;
+}
+
+
+.words-wrapper {
+    width: 80%;
+    position: relative;
+    margin: 110px auto 0 auto;
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+}
+
+.words-header1 {
+    margin: 0;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+.words-header1 span {
+    color: #444;
+    white-space: nowrap;
+    font-size: 150%;
+    font-weight: normal;
+}
+
+.words-words {
+    display: inline;
+    text-indent: 10px;
+}
+
+.words-words span {
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    width: 100%;
+    color: #4D4FF0;
+   /* font-size: 3.5em; */
+    text-transform: uppercase;
+}
+
+.words-words-2 span {
+    animation: cycleText 18s linear infinite 0s;
+}
+
+.words-words span:nth-child(2) {
+    animation-delay: 3s;
+    /* color:  */
+}
+
+.words-words span:nth-child(3) {
+    animation-delay: 6s;
+    /* color:  */
+}
+
+.words-words span:nth-child(4) {
+    animation-delay: 9s;
+    /* color:  */
+}
+
+.words-words span:nth-child(5) {
+    animation-delay: 12s;
+    /* color:  */
+}
+
+@keyframes cycleText {
+    0% { opacity: 1; animation-timing-function: easy-in; width: 0; }
+    10% { opacity: 0.3; width: 0; }
+    20% { opacity: 1; width: 100%; }
+    27% { opacity: 0; width: 100%; }
+    100% { opacity: 0; }
+}
+
+.skills-section {
+  background-color: FFF;
+  padding: 0 50px 20px 80px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.skills-section-images img {
+  padding: 0 0 10px;
+}
+
+.footer-section {
+    background-color: #444;
+    color: #EEE8CD;
+    font-weight: bold;
+    padding: 0 50px 0 50px;
+}
+
+.link {
+    padding: 0 50px 0 50px;
+    color: #EEE8CD;
+    transition: all .5s ease-in-out;
+}
+
+
+
+.link:hover {
+    transform: scale(1.2);
+}

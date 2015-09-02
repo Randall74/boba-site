@@ -1,0 +1,49 @@
+#globalhead {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    min-width: 1000px;
+    background: transparent url('../img/texture.jpg') repeat;
+    height: 70px;
+    z-index: 99;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#globalhead > .globalcontainer {
+  height: 65px;
+}
+
+.globalcontainer {
+    width: auto;
+    max-width: 1340px;
+    min-width: 960px;
+    padding: 0 20px;
+}
+
+.rel {
+  position: relative;
+}
+
+#globalnav {
+    height: 70px;
+    line-height: 70px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    min-width: 600px;
+    display: block;
+}

@@ -3,6 +3,173 @@ body{
   font-size: 20px;
 }
 
+#site_content { 
+  width: 100%;
+  overflow: hidden;
+  margin: 0px auto 0 auto;
+  padding: 15px 0 15px 0;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+nav {
+  height: 44px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  color: #FFF;
+  border: solid 1px #3BDDF5;
+  background: #000;
+  display: block;
+}
+
+#nav {
+  float: right;
+}
+
+ul#nav {
+  padding: 7px 20px 6px 20px;
+  font: 100% 'Yanone Kaffeesatz', arial, sans-serif;
+  text-shadow: 1px 1px #0D7989;
+  text-decoration: none;
+  color: #FFF;
+  margin-right: 2px;
+}
+
+#nav li a {
+  padding: 7px 20px 6px 20px;
+  font: 100% 'Yanone Kaffeesatz', arial, sans-serif;
+  text-shadow: 1px 1px #0D7989;
+  text-decoration: none;
+  color: #FFF;
+  margin-right: 2px;
+}
+
+#nav li a:hover {
+  outline: focus;
+  text-decoration: none;
+  color: #09D4FF;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+.menu {
+  display: block;
+  position: relative;
+}
+
+#menu-container {
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+ul {
+  margin: 12px 0 22px 17px;
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+ul.menu {
+  margin: 0;
+  padding: 0;
+}
+
+ul.menu li {
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+
+ul.menu a {
+  display: block;
+  position: relative;
+}
+
+ul li {
+  list-style-type: circle;
+  margin: 0 0 6px 0;
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;
+}
+
+li {
+  display: list-item;
+  text-align: right;
+}
+
+#sidebar_container {
+  float: right;
+  width: 224px;
+  padding: 100px 0 0 0;
+  font: normal .80em arial, sans-serif;
+  font-family: arial, sans-serif;
+  font-size: 0.8em;
+  font-style: normal;
+}
+
+.sidebar {
+  float: right;
+  width: 200px;
+  margin: 0 0 17px 0;
+  background: #222;
+  border: 1px solid #444;
+  -webkit-border-radius: 13px 13px 13px 13px;
+  -moz-border-radius: 13px 13px 13px 13px;
+  border-radius: 13px 13px 13px 13px;
+  padding: 0 15px 5px 13px;
+}
+
+.sidebar h3, .content h1 { 
+  padding: 0 15px 20px 0;
+  font: 200% 'News Cycle', arial, sans-serif;
+  text-shadow:  #000 1px 1px;
+  margin: 0 1px;
+  color: #FFF;
+}
+
+.sidebar h3 { 
+  padding: 14px 15px 14px 0;
+  color: #FFF;
+  font: 200% 'News Cycle', arial, sans-serif;
+}
+
+.sidebar h4 {
+  color: #F67F00;
+  padding: 0 0 5px 0;
+  font: normal 100% 'Yanone kaffeesatz', arial, sans-serif; 
+}
+
+.sidebar ul { 
+  margin: 0 0 15px 0;
+} 
+
+.sidebar a { 
+  color: #DDD;
+  text-decoration: none;
+} 
+
+.sidebar a:hover { 
+  color: #3BDDF5;
+} 
+
+.sidebar_item, .content_item { 
+  padding: 15px 0;
+}
+
+.sidebar p {
+  color: #FFF;
+  
+}
+
 h1, h2, h3{
   font-family: "Georgia";
   text-transform: uppercase;
@@ -16,6 +183,10 @@ h1, h2, h3{
 h1{
   font-size: 3.11em;
   color: #fff;
+}
+
+h5 {
+  color: #999;
 }
 
 #temp{
@@ -64,32 +235,60 @@ h3{
 }
 
 #content > h1 {
-    background: rgba(200,200,200, 0.75);
+  background: rgba(200,200,200, 0.75);
+  border-radius: 13px;
 }
 
 #textBackground{
   background: rgba(252,252,252, 0.75);
   padding: 30px 30px;
   color: #111;
+  border-radius: 13px;
 }
 
 #movin-up {
-    margin: -100px 0 -65px 0;
+  margin: -100px 0 -65px 0;
 }
 
 #ernj {
-    font-size: 0.75em;
-    color: orange;
+  font-size: 0.75em;
+  color: orange;
 }
 
 #topHR{
-  border: 0px;
-  height: 8px;
-  background: #D5D5D5;
+  height: 30px;
+  border-style: solid;
+  border-color: #B02C1A;
+  border-width: 2px 0 0 0;
+  border-radius: 20px;
 }
+
+#topHR::before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -30px;
+  border-style: solid;
+  border-color: #B02C1A;
+  border-width: 0 0 2px 0;
+  border-radius: 20px;
+}
+
 #bodyHR{
-  border: 0px;
-  height: 5px;
-  padding: 1px 0px;
-  background: #D5D5D5;
+  height: 30px;
+  border-style: solid;
+  border-color: #B02C1A;
+  border-width: 2px 0 0 0;
+  border-radius: 20px;
+}
+
+#bodyHR::before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -30px;
+  border-style: solid;
+  border-color: #B02C1A;
+  border-width: 0 0 2px 0;
+  border-radius: 20px;
 }
