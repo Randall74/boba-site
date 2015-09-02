@@ -1,4 +1,4 @@
-var skills = '<div class="col-md-3"><img src="assets/images/%data%.png" alt="my skills" class="img-responsive img-circle"></div>';
+var skills = '<div class="col-md-3"><img src="../assets/images/%data%.png" alt="my skills" class="img-responsive img-circle"></div>';
 
 var skills_array =
 [
